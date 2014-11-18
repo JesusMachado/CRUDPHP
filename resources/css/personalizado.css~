@@ -1,0 +1,46 @@
+html
+{
+	background: #feffe8; /* Old browsers */
+	background: -moz-linear-gradient(top, #feffe8 15%, #bee0dd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#feffe8), color-stop(100%,#bee0dd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #feffe8 15%,#bee0dd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #feffe8 15%,#bee0dd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #feffe8 15%,#bee0dd 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #feffe8 15%,#bee0dd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#bee0dd',GradientType=0 ); /* IE6-9 */
+	height: 100%;
+	background-attachment: fixed;
+}
+
+body{background: none;}
+
+p{text-indent: 20px; text-align: justify; width: 90%;}
+
+h1,h2,h3,h4,h5,h6{margin: 5px; padding: 0px;}
+
+input{text-align: center;}
+label{font-weight: bold; text-align: center; margin: auto 10px auto auto;}
+
+#contenedor
+{
+	margin-top: 50px; 
+	padding-top: 10px;
+	border-left: solid 2px #333; 
+	border-right: solid 2px #333;
+	background: #d7dee3; /* Old browsers */
+	background: -moz-linear-gradient(left,  #d7dee3 0%, #eeeeee 10%, #eeeeee 90%, #d7dee3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d7dee3), color-stop(10%,#eeeeee), color-stop(90%,#eeeeee), color-stop(100%,#d7dee3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #d7dee3 0%,#eeeeee 10%,#eeeeee 90%,#d7dee3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #d7dee3 0%,#eeeeee 10%,#eeeeee 90%,#d7dee3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #d7dee3 0%,#eeeeee 10%,#eeeeee 90%,#d7dee3 100%); /* IE10+ */
+	background: linear-gradient(to right,  #d7dee3 0%,#eeeeee 10%,#eeeeee 90%,#d7dee3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7dee3', endColorstr='#d7dee3',GradientType=1 ); /* IE6-9 */
+}
+
+#pie{background-color: #333;}
+
+#tipo{width: 20px; height: 20px;}
+
+.navbar-brand h2{margin-top: -6px; color: #FFF;}
+
+.separador{margin: 5px auto; text-align: center; vertical-align: text-top;}
