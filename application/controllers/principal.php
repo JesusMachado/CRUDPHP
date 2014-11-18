@@ -16,66 +16,11 @@ class Principal extends CI_Controller {
 	{
 		$this->datos['lugar']='Inicio';		
 		$this->load->view('cabecera',$this->datos);
-		$this->load->view('menu',$this->datos);
-		$this->mensaje['op'] =
-		"
-			<h3>
-				CRUD es el acrónimo de Crear, Obtener, Actualizar y Borrar (del original en inglés: Create, Read, Update and Delete). Se usa para referirse a las funciones básicas en bases de datos o la capa de persistencia en un software. El presente proyecto fue elaborado en dos lenguajes de programacion ; Java y Php . El mismo es sustentado por una serie de diagramas que describen su estructura y funciones. Los desarrolladores del presente proyecto se muestran a continuacion:  
-			</h3>
-			<div class = \"col-sm-4\">
-			<dl>
-  				<dt>Programador PHP</dt>
-  				<dd>Jesus A Machado Ortiz </dd>
-  				<dt>Casos de Uso </dt>
-  				<dd>Iliannys Pereda </dd>
-  				<dt>Programador JAVA</dt>
-  				<dd>Ranyela Gómez </dd>
-  				<dt>Diagrama de Secuencia</dt>
-  				<dd>Miliaris Romero</dd>
-  				<dt>Diagrama de Clase</dt>
-  				<dd>Jesus A Machado O</dd>
-  				<dt>Prototipos de Interfaz</dt>
-  				<dd>Jesus A Machado O </dd>
-  				<dd>Miliaris Romero</dd>
-  				<dd>Ranyela Gómez</dd>
-  				<dd>Iliannys Pereda </dd>
-			</dl>
-			</div>
-			<div class = \"col-sm-4\">
-			<dl>
-  				<dt>Coordinador</dt>
+		$this->load->view('menu',$this->datos);	
 
-  				<dd>Jesus A Machado Ortiz </dd>
-
-  				<dt>Analistas</dt>
-  				<dd>Carlos Ramos </dd>
-  				<dd>José Gárcia </dd>
-  				
-
-  				<dt>Diseño</dt>
-  				<dd>Rafael Gúzman </dd>
-  				<dd>Miliaris Romero</dd>
-
-
-  				<dt>Desarrollo</dt>
-
-  				<dd>Ranyela Gómez</dd>
-  				<dd>Iliannys Pereda </dd>
-
-  				<dt>Prueba</dt>
-
-  				<dd>Reinaldo</dd>
-  				<dd>Carupano</dd>
-
-  				
   			
-  				
-  				
-  				
-			</dl>
-			</div>
-		";
-		$this->load->view('estado',$this->mensaje);
+		
+		$this->load->view('index',$this->datos);
 	}
 
 	public function formulario()
